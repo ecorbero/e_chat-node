@@ -32,7 +32,7 @@ app.route("/check").get((req,res) =>{
 });
 
 // Listen to Server
-server.listen(port, 'localhost', () => {
+server.listen(port, '0.0.0.0', () => {
     console.log("Server Started");
 })
 
